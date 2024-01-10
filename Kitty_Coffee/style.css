@@ -10,11 +10,12 @@ body {
     display: flex;
     align-items: center;
     overflow: hidden;
-    border-bottom: 5px solid #b7a79a;
+    border-bottom: 10px solid #b7a79a;
 }
 
 #nav-bar a{
     text-decoration: none;
+    width: auto;
 }
 
 #nav-bar-logo {
@@ -23,15 +24,15 @@ body {
 }
 
 #nav-bar-logo img{
-    width: 5vw;
-    padding: 0.5vw;
-    margin-left: 0.5vw;
+    width: 20%;
+    padding: 2% 4% 2% 4%;
 }
 
 #nav-bar-logo span{
-    font-size: 2vw;
-    font-family: 'Pacifico', cursive;
+    font-size: 10em;
+    font-family: 'Noto Sans', sans-serif;
     color: #664439;
+    width: 1000px;
 }
 
 #nav-bar-right {

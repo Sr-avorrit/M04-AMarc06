@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    background-color: #e7e7e7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-bar {
+    background-color: #ffdfb2;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    filter: drop-shadow(#ffdfb2 0 2px 10px);
+}
+
+#nav-bar a{
+    text-decoration: none;
+}
+
+#nav-bar-logo {
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar-logo img{
+    width: 5vw;
+    padding: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+#nav-bar-logo span{
+    font-size: 2vw;
+    font-family: 'Pacifico', cursive;
+    color: #2a0e00;
+}
+
+#nav-bar-right {
+    margin-left: auto;
+    margin-right: 5vw;
+}
+
+#nav-bar-right a {
+    padding-top: 25%;
+    padding-bottom: 25%; 
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5vw;
+    color: #2a0e00;  
+}
+
+#nav-bar-right a:hover {
+    
+    background-color: #c8ac84;
+}
+
+#footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #ffdfb2;
+    text-align: center;
+}
+
+#footer-social-media {
+    margin: 1vh;
+}
+
+#footer-social-media a{
+    color: #2a0e00;
+    font-size: 1.5vw;
+    margin: 0 1vh;   
+}
+
+#footer-social-media a:hover{
+    color:#f282b4;
+}
+
+#footer span{
+    color: #2a0e00;
+    font-size: 0.9vw;
+    margin: 0 1vh;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#center-div {
+    width: 10vw;
+    text-align: center;
+    color: #2a0e00;
+}
+
+#center-div {
+    width: 40vw;
+    text-align: center;
+}
+
+#center-div img{
+    width: 10vw;
+    margin-top: 3vh;
+}
+
+#center-div h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    font-size: 5vw;
+    margin: -2vw 0 0 0;
+}
+
+#center-div p {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.2vw;
+    margin: 0;
+    text-align: justify;
+}
+
+#center-div h2 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.7vw;
+    margin: 1vh;
+}
+
+#center-div a {
+    font-family: 'Patrick Hand', cursive;
+    text-decoration: none;
+    color: #2a0e00;
+    padding: 1vw;
+    margin: 1vw;
+    background-color: #ffdfb2;
+    border-style: solid;
+    border-width: 0.2vw;
+    border-radius: 2vw;
+    border-color: #2a0e00;
+    font-size: 1.2vw;
+}
+
+#center-div a:hover {
+    color: #ffdfb2;
+    background-color: #2a0e00;
+}
+
+#center-buttons-div {
+    margin-top: 3vw;
+}
+
+.card {
+    font-family: 'Patrick Hand', cursive;
+    position: relative;
+    width: 20vw;
+    height: 50vh;
+    background-color: #ffdfb2;
+    margin: 5vw;
+    border-radius: 1.7vw;
+    text-align: center;
+    filter: drop-shadow(#fdca83 0 0 5px);
+    top: 10vh;
+} 
+
+.card h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5vw;
+    text-shadow: 2px 0 #fef8e7, -2px 0 #fef8e7, 0 2px #fef8e7, 0 -2px #fef8e7,
+             1px 1px #fef8e7, -1px -1px #fef8e7, 1px -1px #fef8e7, -1px 1px #fef8e7;
+    margin-top: -15%;
+}
+
+.card p {
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.price {
+    margin-top: -5vh;
+    position: relative;
+}
+
+.int {
+    font-size: 6vw;
+    margin: 0;
+}
+
+.dolar {
+    position: absolute;
+    top: 1.5vw;
+    font-size: 2.5vw;
+    margin: 0 0 0 -1.2vw;
+    font-weight: bold;
+}
+
+.decimal {
+    position: absolute;
+    font-size: 2.5vw;
+    top: 1.5vw;
+}
+
+.card a {
+    position: absolute;
+    bottom: -2vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1vw;
+    color:#f282b4;
+    background-color: #ffdfb2;
+    border-style: solid;
+    border-width: 0.2vw;
+    border-radius: 2vw;
+    border-color: #f282b4;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: #ffdfb2;
+    background-color: #f282b4;
+}

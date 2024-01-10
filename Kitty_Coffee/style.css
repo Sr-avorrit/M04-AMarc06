@@ -24,12 +24,12 @@ body {
 }
 
 #nav-bar-logo img{
-    width: 20%;
-    padding: 2% 4% 2% 4%;
+    width: 4vw;
+    padding: 0.5vw 1vw;
 }
 
 #nav-bar-logo span{
-    font-size: 10em;
+    font-size: 2vw;
     font-family: 'Noto Sans', sans-serif;
     color: #664439;
     width: 1000px;

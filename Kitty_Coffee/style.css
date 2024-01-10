@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: fdffff;
+    background-color: #e2e6e2;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     overflow: hidden;
-    border-bottom: 10px solid #b7a79a;
+    border-bottom: 0.2vw solid #998273;
 }
 
 #nav-bar a{
@@ -32,32 +32,30 @@ body {
     font-size: 2vw;
     font-family: 'Noto Sans', sans-serif;
     color: #664439;
-    width: 1000px;
+    width: 12vw;
+    font-weight: bold;
 }
 
 #nav-bar-right {
-    margin-left: auto;
-    margin-right: 5vw;
+    margin: 0 5vw 0 auto;
 }
 
 #nav-bar-right a {
-    padding-top: 25%;
-    padding-bottom: 25%; 
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-    font-family: 'Pacifico', cursive;
+    padding: 25% 0.5vw;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.5vw;
     color: #664439;  
 }
 
 #nav-bar-right a:hover {
-    background-color: #b7a79a;
+    background-color: #998273;
 }
 
 #footer {
     margin-top: auto;
+    padding-bottom: 1vw;
     width: 100%;
-    background-color: #b7a79a;
+    background-color: #998273;
     text-align: center;
 }
 
@@ -66,19 +64,18 @@ body {
 }
 
 #footer-social-media a{
-    color: #664439;
+    color: #e2e6e2;
     font-size: 1.5vw;
     margin: 0 1vh;   
 }
 
 #footer-social-media a:hover{
-    color:#f282b4;
+    color:#664439;
 }
 
 #footer span{
-    color: #664439;
+    color: #e2e6e2;
     font-size: 0.9vw;
-    margin: 0 1vh;
 }
 
 #content {
@@ -86,58 +83,73 @@ body {
     justify-content: center;
 }
 
-#center-div {
-    width: 10vw;
-    text-align: center;
-    color: #664439;
+#coffee-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coffee-img span{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    margin-top: 3vw;
+    font-size: 4.5vw;
+}
+
+#left-img-text {
+    transform: skew(-10deg) rotate(-10deg);
+}
+
+#right-img-text {
+    transform: skew(10deg) rotate(10deg);
+    letter-spacing: 0.5vw;
 }
 
 #center-div {
     width: 40vw;
     text-align: center;
+    color: #664439;
 }
 
 #center-div img{
-    width: 10vw;
-    margin-top: 2vh;
+    width: 9vw;
+    margin: 2vh;
 }
 
 #center-div h1{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Noto Serif', serif;
     font-weight: normal;
     font-size: 5vw;
     margin: -2vw 0 0 0;
 }
 
 #center-div p {
-    font-family: 'Patrick Hand', cursive;
-    font-size: 1.2vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1vw;
     margin: 0;
-    text-align: justify;
+    text-align: center;
 }
 
 #center-div h2 {
-    font-family: 'Patrick Hand', cursive;
-    font-size: 1.7vw;
-    margin: 1vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5vw;
+    margin: 1vh 0 1.5vw 0;
 }
 
 #center-div a {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
     text-decoration: none;
     color: #664439;
-    padding: 1vw;
+    padding: 0.5vw 1vw;
     margin: 1vw;
-    background-color: #b7a79a;
-    border-style: solid;
-    border-width: 0.2vw;
+    background-color: #998273;
     border-radius: 2vw;
-    border-color: #664439;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 #center-div a:hover {
-    color: #b7a79a;
+    color: #e2e6e2;
     background-color: #664439;
 }
 
@@ -146,74 +158,83 @@ body {
 }
 
 .card {
-    font-family: 'Patrick Hand', cursive;
     position: relative;
-    width: 20vw;
-    height: 50vh;
-    background-color: #b7a79a;
-    margin: 5vw;
+    justify-content: center;
+    width: 17vw;
+    height: 30vw;
+    background-color: #998273;
+    margin: 3vw 5vw;
     border-radius: 1.7vw;
     text-align: center;
-    filter: drop-shadow(#fdca83 0 0 5px);
     top: 10vh;
+    color: #e2e6e2;
 } 
 
 .card h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Dosis', sans-serif;
+    border-bottom: 0.15vw solid #e2e6e2;
+    font-weight: bold;
     font-size: 2.5vw;
-    text-shadow: 2px 0 #fef8e7, -2px 0 #fef8e7, 0 2px #fef8e7, 0 -2px #fef8e7,
-             1px 1px #fef8e7, -1px -1px #fef8e7, 1px -1px #fef8e7, -1px 1px #fef8e7;
-    margin-top: -15%;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    padding-bottom: 0.5vw;
+    width: 80%;
+    margin-left: 10%;
+    filter: drop-shadow(#664439 0 0 0.3vw);
 }
 
 .card p {
-    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0.5vw 0 0 10%;
     width: 80%;
-    text-align: justify;
-    font-size: 1.2vw;
+    text-align: left;
+    font-size: 1vw;
 }
 
 .price {
+    font-family: 'Dosis', sans-serif;
     margin-top: -5vh;
     position: relative;
 }
 
 .int {
     font-size: 6vw;
-    margin: 0;
+    padding-top: 10vw;
+    margin-left: -3vw;
 }
 
 .dolar {
     position: absolute;
-    top: 1.5vw;
-    font-size: 2.5vw;
-    margin: 0 0 0 -1.2vw;
+    top: 1.3vw;
+    font-size: 2vw;
+    margin: 0;
     font-weight: bold;
 }
 
 .decimal {
     position: absolute;
     font-size: 2.5vw;
-    top: 1.5vw;
+    margin-left: 0.2vw;
+    top: 3.6vw;
 }
 
 .card a {
+    font-family: 'Noto Sans', sans-serif;
     position: absolute;
-    bottom: -2vh;
-    left: 50%;
+    bottom: 1vw;
     transform: translate(-50%, -50%);
-    padding: 1vw;
-    color:#f282b4;
-    background-color: #b7a79a;
+    padding: 0.2vw 1vw;
+    color:#e2e6e2;
+    background-color: #998273;
     border-style: solid;
     border-width: 0.2vw;
     border-radius: 2vw;
-    border-color: #f282b4;
-    font-size: 1.2vw;
+    border-color: #e2e6e2;
+    font-size: 1vw;
     text-decoration: none;
 }
 
 .card a:hover {
-    color: #b7a79a;
+    color: #998273;
     background-color: #f282b4;
 }

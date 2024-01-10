@@ -1,17 +1,16 @@
 body {
     margin: 0;
-    background-color: #e7e7e7;
+    background-color: fdffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 #nav-bar {
-    background-color: #ffdfb2;
     display: flex;
     align-items: center;
     overflow: hidden;
-    filter: drop-shadow(#ffdfb2 0 2px 10px);
+    border-bottom: 5px solid #b7a79a;
 }
 
 #nav-bar a{
@@ -32,7 +31,7 @@ body {
 #nav-bar-logo span{
     font-size: 2vw;
     font-family: 'Pacifico', cursive;
-    color: #2a0e00;
+    color: #664439;
 }
 
 #nav-bar-right {
@@ -47,18 +46,17 @@ body {
     padding-right: 0.5vw;
     font-family: 'Pacifico', cursive;
     font-size: 1.5vw;
-    color: #2a0e00;  
+    color: #664439;  
 }
 
 #nav-bar-right a:hover {
-    
-    background-color: #c8ac84;
+    background-color: #b7a79a;
 }
 
 #footer {
     margin-top: auto;
     width: 100%;
-    background-color: #ffdfb2;
+    background-color: #b7a79a;
     text-align: center;
 }
 
@@ -67,7 +65,7 @@ body {
 }
 
 #footer-social-media a{
-    color: #2a0e00;
+    color: #664439;
     font-size: 1.5vw;
     margin: 0 1vh;   
 }
@@ -77,7 +75,7 @@ body {
 }
 
 #footer span{
-    color: #2a0e00;
+    color: #664439;
     font-size: 0.9vw;
     margin: 0 1vh;
 }
@@ -90,7 +88,7 @@ body {
 #center-div {
     width: 10vw;
     text-align: center;
-    color: #2a0e00;
+    color: #664439;
 }
 
 #center-div {
@@ -100,7 +98,7 @@ body {
 
 #center-div img{
     width: 10vw;
-    margin-top: 3vh;
+    margin-top: 2vh;
 }
 
 #center-div h1{
@@ -126,20 +124,20 @@ body {
 #center-div a {
     font-family: 'Patrick Hand', cursive;
     text-decoration: none;
-    color: #2a0e00;
+    color: #664439;
     padding: 1vw;
     margin: 1vw;
-    background-color: #ffdfb2;
+    background-color: #b7a79a;
     border-style: solid;
     border-width: 0.2vw;
     border-radius: 2vw;
-    border-color: #2a0e00;
+    border-color: #664439;
     font-size: 1.2vw;
 }
 
 #center-div a:hover {
-    color: #ffdfb2;
-    background-color: #2a0e00;
+    color: #b7a79a;
+    background-color: #664439;
 }
 
 #center-buttons-div {
@@ -151,7 +149,7 @@ body {
     position: relative;
     width: 20vw;
     height: 50vh;
-    background-color: #ffdfb2;
+    background-color: #b7a79a;
     margin: 5vw;
     border-radius: 1.7vw;
     text-align: center;
@@ -205,7 +203,7 @@ body {
     transform: translate(-50%, -50%);
     padding: 1vw;
     color:#f282b4;
-    background-color: #ffdfb2;
+    background-color: #b7a79a;
     border-style: solid;
     border-width: 0.2vw;
     border-radius: 2vw;
@@ -215,6 +213,6 @@ body {
 }
 
 .card a:hover {
-    color: #ffdfb2;
+    color: #b7a79a;
     background-color: #f282b4;
 }

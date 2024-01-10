@@ -6,6 +6,7 @@ body {
     flex-direction: column;
 }
 
+/*Navigation bar style start*/
 #nav-bar {
     display: flex;
     align-items: center;
@@ -17,7 +18,7 @@ body {
     text-decoration: none;
     width: auto;
 }
-
+/*Navigation bar left logo style start*/
 #nav-bar-logo {
     display: flex;
     align-items: center;
@@ -35,7 +36,8 @@ body {
     width: 12vw;
     font-weight: bold;
 }
-
+/*Navigation bar left logo style end*/
+/*Navigation bar right buttons style start*/
 #nav-bar-right {
     margin: 0 5vw 0 auto;
 }
@@ -50,7 +52,9 @@ body {
 #nav-bar-right a:hover {
     background-color: #998273;
 }
-
+/*Navigation bar right buttons style end*/
+/*Navigation bar style end*/
+/*Footer style start*/
 #footer {
     margin-top: auto;
     padding-bottom: 1vw;
@@ -58,31 +62,32 @@ body {
     background-color: #998273;
     text-align: center;
 }
-
+/*Footer social media style start*/
 #footer-social-media {
-    margin: 1vh;
+    margin: 1vw;
 }
 
 #footer-social-media a{
     color: #e2e6e2;
     font-size: 1.5vw;
-    margin: 0 1vh;   
+    margin: 0 1vw;   
 }
 
 #footer-social-media a:hover{
     color:#664439;
 }
-
+/*Footer social media style end*/
 #footer span{
     color: #e2e6e2;
     font-size: 0.9vw;
 }
-
+/*Footer style end*/
+/*Main content style start*/
 #content {
     display: flex;
     justify-content: center;
 }
-
+/*Top center style start*/
 #coffee-img {
     display: flex;
     justify-content: center;
@@ -95,7 +100,7 @@ body {
     margin-top: 3vw;
     font-size: 4.5vw;
 }
-
+/*In transform skew() rotate the single leter and rotate() rotates the whole content*/
 #left-img-text {
     transform: skew(-10deg) rotate(-10deg);
 }
@@ -217,7 +222,8 @@ body {
     margin-left: 0.2vw;
     top: 3.6vw;
 }
-
+/*The transform with translate(-50%, -50%) is used to canter the content 
+when the position of the object has been set to absolute*/
 .card a {
     font-family: 'Noto Sans', sans-serif;
     position: absolute;
@@ -238,3 +244,4 @@ body {
     color: #998273;
     background-color: #f282b4;
 }
+/*Main content style end*/

@@ -64,7 +64,7 @@ body {
 }
 /*Footer social media style start*/
 #footer-social-media {
-    margin: 1vw;
+    margin: 1vw 0 0.5vw 0;
 }
 
 #footer-social-media a{
@@ -159,7 +159,8 @@ body {
 }
 
 #center-buttons-div {
-    margin-top: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
 }
 
 .card {
@@ -168,7 +169,7 @@ body {
     width: 17vw;
     height: 30vw;
     background-color: #998273;
-    margin: 3vw 5vw;
+    margin: 0 5vw;
     border-radius: 1.7vw;
     text-align: center;
     top: 10vh;
@@ -242,6 +243,6 @@ when the position of the object has been set to absolute*/
 
 .card a:hover {
     color: #998273;
-    background-color: #f282b4;
+    background-color: #e2e6e2;
 }
 /*Main content style end*/

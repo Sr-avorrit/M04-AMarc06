@@ -25,7 +25,7 @@ body {
 }
 
 #nav-bar-logo img{
-    width: 4vw;
+    width: 3vw;
     padding: 0.5vw 1vw;
 }
 
@@ -57,7 +57,7 @@ body {
 /*Footer style start*/
 #footer {
     margin-top: auto;
-    padding-bottom: 1vw;
+    padding-bottom: 0.5vw;
     width: 100%;
     background-color: #998273;
     text-align: center;
@@ -141,7 +141,7 @@ body {
     margin: 1vh 0 1.5vw 0;
 }
 
-#center-div a {
+#center-div button {
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -151,9 +151,10 @@ body {
     background-color: #998273;
     border-radius: 2vw;
     font-size: 1vw;
+    border-width: 0;
 }
 
-#center-div a:hover {
+#center-div button:hover {
     color: #e2e6e2;
     background-color: #664439;
 }
@@ -167,14 +168,20 @@ body {
     position: relative;
     justify-content: center;
     width: 17vw;
-    height: 30vw;
+    height: 29vw;
     background-color: #998273;
     margin: 0 5vw;
     border-radius: 1.7vw;
     text-align: center;
-    top: 10vh;
+    top: 15vh;
     color: #e2e6e2;
 } 
+
+.card img {
+    width: 3vw;
+    margin-top: -15vw;
+    margin-bottom: 2vw;
+}
 
 .card h1 {
     font-family: 'Dosis', sans-serif;
@@ -204,6 +211,7 @@ body {
 }
 
 .int {
+    font-weight: bolder;
     font-size: 6vw;
     padding-top: 10vw;
     margin-left: -3vw;
@@ -218,6 +226,7 @@ body {
 }
 
 .decimal {
+    font-weight: bolder;
     position: absolute;
     font-size: 2.5vw;
     margin-left: 0.2vw;
@@ -225,10 +234,10 @@ body {
 }
 /*The transform with translate(-50%, -50%) is used to canter the content 
 when the position of the object has been set to absolute*/
-.card a {
+.card button {
     font-family: 'Noto Sans', sans-serif;
     position: absolute;
-    bottom: 1vw;
+    bottom: 0;
     transform: translate(-50%, -50%);
     padding: 0.2vw 1vw;
     color:#e2e6e2;
@@ -241,7 +250,7 @@ when the position of the object has been set to absolute*/
     text-decoration: none;
 }
 
-.card a:hover {
+.card button:hover {
     color: #998273;
     background-color: #e2e6e2;
 }
